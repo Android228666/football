@@ -1,73 +1,61 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-header{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
   background: black;
-  width: 1440px;
+  width: 1260px;
   height: 100px;
   display: flex;
-
 }
-.icon{
-  margin-left: 20px;
+.icon {
+  margin-left: 10px;
   margin-top: 2px;
+  transition: 3000ms;
 }
-.title{
+.icon:hover {
+  transform: rotateX(180deg);
+}
+.title {
   font-size: 90px;
   margin-left: 5px;
   margin-top: 4px;
   color: orange;
 }
-.link{
-  margin-left: 60px;
+.link {
+  margin-left: 24px;
   margin-top: 36px;
   color: orange;
   text-decoration: none;
   text-align: center;
-  border:  5px solid black; 
-
+  border: 5px solid black;
 }
-.link:hover{
+.link:hover {
   border-bottom: 4px solid orange;
-  color:  white;
+  color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-  margin-top: 800px;
+footer {
+  margin-top: 685px;
   background: black;
-  width: 1440px;
-  height: 200px;
+  width: 1260px;
+  height: 100px;
   display: flex;
 }
-.footer-title{
-  color:orange;
-  font-size: 100px;
-  margin-top: 50px;
+.footer-title {
+  color: orange;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 5px;
 }
-.footer-icon{
-  margin-top: 50px;
+.footer-icon {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.phone-icon {
+  margin-left: 300px;
+}
+.email-icon {
+  margin-left: 300px;
 }
